@@ -22,7 +22,7 @@ self.addEventListener_install(fun installEvent ->
 )
 
 self.addEventListener_message(fun ev ->
-    printfn "receive message in worker __ %A" (JSON.stringify ev.data)
+    printfn "receive message in worker _+_ %A" (JSON.stringify ev.data)
 )
 
 self.addEventListener_activate(fun activateEvent ->
