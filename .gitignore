@@ -1,0 +1,8 @@
+.fable
+.paket/paket.exe
+.paket/.store
+node_modules
+bin/
+obj/
+deploy/
+paket-files/
